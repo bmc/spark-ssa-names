@@ -9,7 +9,7 @@ Spark programs.
 
 Currently, there are two programs.
 
-## `com.ardentex.spark.SSNNamesToParquet`
+**`com.ardentex.spark.SSNNamesToParquet`**
 
 `SSNNamesToParquet` converts the SSN name data from
 <http://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-level-data>
@@ -17,7 +17,7 @@ to a Parquet table. This data consists of first name, gender, and totals for
 each year from 1880 to 2014.
 
  
-## `com.ardentex.spark.SSNNamesByStateToParquet`
+**`com.ardentex.spark.SSNNamesByStateToParquet`**
 
 `SSNNamesByStateToParquet` converts the name data from
 <https://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-data-by-state-and-district-of->
