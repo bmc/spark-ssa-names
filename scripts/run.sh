@@ -21,6 +21,9 @@ case $# in
     ;;
 esac
 
+rm -rf tmp
+mkdir -p tmp/logs
+
 $SPARK_HOME/bin/spark-shell \
   --properties-file $CONF \
   --executor-memory $MEMORY \
