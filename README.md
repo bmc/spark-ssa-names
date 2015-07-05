@@ -80,10 +80,6 @@ You'll get a `names-by-state.parquet` directory that represents the correspondin
 Parquet table.
 
 
-* Compile this 
-* Use the `scripts/run.sh` shell script in this repo to ru 
-
-
 [Apache Spark]: http://spark.apache.org/
 [Parquet]: http://parquet.apache.org/
 [SBT]: http://scala-sbt.org
